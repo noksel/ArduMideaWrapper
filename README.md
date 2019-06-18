@@ -83,7 +83,7 @@ remote_control.getTemperature();
 remote_control.getState();
 ```
 
-You can download the IR library here: [Arduino-IRremote](https://github.com/z3t0/Arduino-IRremote)
+You can download the IRremoteESP8266 library here: [arduinolibraries.info](https://www.arduinolibraries.info/libraries/i-rremote-esp8266), [GitHub](https://github.com/markszabo/IRremoteESP8266)
 
 **P.S.:** Don't forget to use `setState(true)` before you emit commands like `setTemperature()`or `setMode()`, if you don't set the state to true the air conditioner won't turn on, or change the value. The default value to state is `false`.
 
