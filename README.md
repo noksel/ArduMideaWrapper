@@ -1,4 +1,4 @@
-# MideaIR
+# MideaIR esp8266
 
 [![Build Status](https://travis-ci.org/WiserUFBA/ArduMideaWrapper.svg)](https://travis-ci.org/WiserUFBA/ArduMideaWrapper)
 [![License Badge](https://img.shields.io/github/license/wiserufba/ardumideawrapper.svg)](https://github.com/WiserUFBA/ArduMideaWrapper/blob/master/LICENSE)
