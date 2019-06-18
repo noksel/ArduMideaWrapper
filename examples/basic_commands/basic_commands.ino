@@ -1,11 +1,12 @@
-#include <IRremote.h>
+#include <IRremoteESP8266.h>
+#include <IRsend.h>
 #include <MideaIR.h>
 
-#define IR_EMITER       3
+#define IR_EMITER       3  // pin
 #define FIVE_SECONDS    5000
 
 // IRsend Object and Remote Control object
-IRsend irsend;
+IRsend irsend(IR_EMITER);
 MideaIR remote_control(&irsend);
 
 void setup(){
